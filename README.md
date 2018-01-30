@@ -5,8 +5,8 @@ https://www.icourse163.org/learn/HIT-69005?tid=1002224001#/learn/content?type=de
 上看到这个问题，模仿高赞回答编写了程序，如下
 注意一点就是N是101而不是100，不然由于数组a[]是从a[0]开始的，
 就会产生数组中数据溢出，出现a[100]的情况。
-#include <stdio.h>
-#define N 101
+#include <stdio.h>  
+#define N 101  
 void Find(int a[], int n);
 void Print(int a[], int n);
 int main()
